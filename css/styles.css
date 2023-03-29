@@ -1,3 +1,8 @@
+:root {
+  --border-radius-message-emma: 25px 25px 0 25px;
+  --border-radius-message-max: 25px 25px 25px 0;
+}
+
 body {
   max-width: 375px;
   margin: auto;
@@ -44,4 +49,28 @@ header .button-container {
 header .button-container .button img {
   height: 23px;
   margin: 0 15px 0 15px;
+}
+
+main {
+  width: 100%;
+  padding: 15px;
+  background: #BAACA2;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+main .message {
+  width: 70%;
+  padding: 35px 10px 10px 10px;
+  margin: 0 0 20px 0;
+  border-radius: var(--border-radius-message-max);
+  background: url(../img/carte-tresor.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .message-max {
+  border-radius: var(--border-radius-message-emma);
+  align-self: flex-end;
 }
