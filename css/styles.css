@@ -1,6 +1,6 @@
 :root {
-  --border-radius-message-emma: 25px 25px 0 25px;
-  --border-radius-message-max: 25px 25px 25px 0;
+  --border-radius-message-max: 25px 25px 0 25px;
+  --border-radius-message-emma: 25px 25px 25px 0;
 }
 
 body {
@@ -64,14 +64,14 @@ main .message {
   width: 70%;
   padding: 35px 10px 10px 10px;
   margin: 0 0 20px 0;
-  border-radius: var(--border-radius-message-max);
+  border-radius: var(--border-radius-message-emma);
   background: url(../img/carte-tresor.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 main .message-max {
-  border-radius: var(--border-radius-message-emma);
+  border-radius: var(--border-radius-message-max);
   align-self: flex-end;
 }
 
