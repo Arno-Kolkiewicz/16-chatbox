@@ -7,6 +7,7 @@ body {
   max-width: 375px;
   margin: auto;
   background: #ddd;
+  font-family: sans-serif;
 }
 
 img {
@@ -35,10 +36,10 @@ header {
 header .profil {
   margin: 0 0 0 10px;
   padding: 2px 15px 2px 15px;
-  font-family: sans-serif;
   background: #C1AD9D;
   border-radius: 15px;
 }
+
 
 header .button-container {
   display: flex;
@@ -70,9 +71,22 @@ main .message {
   background-size: cover;
 }
 
+main .message .message-time {
+  margin: 10px 0 0 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  font-weight: 800;
+}
+
 main .message-max {
   border-radius: var(--border-radius-message-max);
   align-self: flex-end;
+}
+
+main .message-visuel {
+  width: 70%;
+  padding: 5px;
+  border-radius: var(--border-radius-message-max);
 }
 
 footer{
